@@ -1,0 +1,10 @@
+#header {
+  color: #DA0073;
+  text-align: center; }
+  #header #title h2 {
+    margin-bottom: 0; }
+  #header #title #subheader {
+    display: flex;
+    justify-content: center; }
+    #header #title #subheader img {
+      height: 65px; }
