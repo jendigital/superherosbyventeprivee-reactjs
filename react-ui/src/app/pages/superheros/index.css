@@ -16,7 +16,8 @@
       padding: 10px;
       color: #3F3F3F; }
       #superheros .hero-description .hero-name {
-        font-weight: bold; }
+        font-weight: bold;
+        font-size: 12px; }
       #superheros .hero-description .hero-link .fa-book {
         color: #696969;
         margin-right: 3px; }
