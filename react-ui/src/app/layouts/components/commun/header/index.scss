@@ -1,0 +1,26 @@
+$screen-sm-min:     768px;
+$pink:              #DA0073;
+
+#header {
+    color: $pink;
+    text-align: center;
+
+    #title {
+        h2 {
+            margin-bottom: 0;
+        }
+
+        h3 {
+            margin-top: 0;
+        }
+    
+        #subheader {
+            display: flex;
+            justify-content: center;
+    
+            img {
+                height: 30px;
+            }
+        }
+    }
+}

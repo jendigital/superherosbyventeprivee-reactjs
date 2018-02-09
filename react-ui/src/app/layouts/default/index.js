@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Menu from '../components/commun/menu';
+
+import Header from '../components/commun/header';
 import Footer from '../components/commun/footer';
 
 import './index.css'
@@ -8,7 +9,7 @@ export default class MainLayout extends Component {
     render() {
         return (
             <div id="layout">
-                <Menu navigation={this.props} />
+                <Header navigation={this.props} />
                 <div className="content" >
                     {this.props.children}
                 </div>
