@@ -23,7 +23,7 @@ https://superherosbyventeprivee.herokuapp.com/
 * cd .. && yarn start
 * see result on http://localhost:5000
 
-## Instructions
+## Project Purpose
 
 ![alt text](https://storage.googleapis.com/superherosbyventeprivee/react_project_instruction.png)
 
