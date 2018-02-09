@@ -8,9 +8,8 @@ export default class Header extends Component {
             <div id='header'>
                 <div id='title'>
                     <h2>Super Heros</h2>
-                    <div id='subheader' ><h2>by</h2> <img alt='vente privee' src='https://storage.googleapis.com/superherosbyventeprivee/venteprivee.png' /></div>
+                    <div id='subheader' ><h3>By</h3> <img alt='vente privee' src='https://storage.googleapis.com/superherosbyventeprivee/venteprivee_logo.png' /></div>
                 </div>
-
             </div>
         );
     }

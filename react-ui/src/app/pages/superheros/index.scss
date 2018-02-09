@@ -1,8 +1,49 @@
 $screen-sm-min:     768px;
-$pink:              #DA0073;
+$pink:            #DA0073;
+$grey:            #696969;
+$darkgrey:        #3F3F3F;
 
 #superheros {
-    h1 {
-        color: $pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+
+    .hero {
+        width: 230px;
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+        &-description {
+            position: relative;
+            top: -60px;
+            width: 200px;
+            background-color: rgba(230, 230, 230, 0.5);
+            padding: 10px;
+            color: $darkgrey;
+
+            .hero-name {
+                font-weight: bold;
+            }
+
+            .hero-link {
+                .fa-book {
+                    color: $grey;
+                    margin-right: 3px;
+                }
+
+                a {
+                    color: white;
+                    margin-right: 3px;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
     }
 }

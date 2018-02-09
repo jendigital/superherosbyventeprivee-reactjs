@@ -1,19 +1,19 @@
-![alt text](https://github.com/jendigital/superherosbyventeprivee-reactjs/blob/master/venteprivee.png)
+![alt text](https://storage.googleapis.com/superherosbyventeprivee/venteprivee_logo.png)
 
-Super Heros By Vente Prive
-===========================
+Super Heros By Vente Privee
+============================
 
 ## List of super Heros
 
-![alt text](https://github.com/jendigital/superherosbyventeprivee-reactjs/blob/master/superheroslist.png)
+![alt text](https://storage.googleapis.com/superherosbyventeprivee/superheroslist.png)
 
-## Heroku App
+## Heroku App, click on the link to see the result on preproduction
 
-http://superherosbyventeprivee.herokuapp.com/
+https://superherosbyventeprivee.herokuapp.com/
 
 ## Launch React Front
 
-* cd react-ui then yarn then yarn start
+* cd react-ui then yarn start
 * see result on http://localhost:3000
 * cd react-ui then yarn test to launch jest test
 * create-react-app-sass project
@@ -22,6 +22,14 @@ http://superherosbyventeprivee.herokuapp.com/
 
 * yarn start
 * see result on http://localhost:5000
+
+## Instructions
+
+![alt text](https://storage.googleapis.com/superherosbyventeprivee/react_project_instruction.png)
+
+## Test with hard written object
+
+![alt text](https://storage.googleapis.com/superherosbyventeprivee/superherolisteffect.png)
 
 ## Deploy on Heroku from Root (Preproduction plateforme https://superherosbyventeprivee.herokuapp.com)
 

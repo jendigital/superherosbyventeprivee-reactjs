@@ -1,2 +1,27 @@
-#superheros h1 {
-  color: #DA0073; }
+#superheros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px; }
+  #superheros .hero {
+    width: 230px; }
+    #superheros .hero img {
+      width: 200px;
+      height: 200px; }
+    #superheros .hero-description {
+      position: relative;
+      top: -60px;
+      width: 200px;
+      background-color: rgba(230, 230, 230, 0.5);
+      padding: 10px;
+      color: #3F3F3F; }
+      #superheros .hero-description .hero-name {
+        font-weight: bold; }
+      #superheros .hero-description .hero-link .fa-book {
+        color: #696969;
+        margin-right: 3px; }
+      #superheros .hero-description .hero-link a {
+        color: white;
+        margin-right: 3px; }
+        #superheros .hero-description .hero-link a:last-child {
+          margin-right: 0; }
