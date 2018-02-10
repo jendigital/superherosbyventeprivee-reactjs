@@ -31,6 +31,10 @@ https://superherosbyventeprivee.herokuapp.com/
 
 ![alt text](https://storage.googleapis.com/superherosbyventeprivee/superherolisteffect.png)
 
+## List Result
+
+![alt text](https://storage.googleapis.com/superherosbyventeprivee/SuperHerosFetchList.png)
+
 ## Deploy on Heroku from Root (Preproduction plateforme https://superherosbyventeprivee.herokuapp.com)
 
 * Install the Heroku CLI
