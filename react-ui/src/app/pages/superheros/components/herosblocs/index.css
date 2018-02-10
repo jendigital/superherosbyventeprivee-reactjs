@@ -18,18 +18,8 @@
       #superheros .hero-description .hero-name {
         font-weight: bold;
         font-size: 12px; }
-<<<<<<< HEAD:react-ui/src/app/pages/superheros/index.css
-      #superheros .hero-description .hero-link .fa-book {
-        color: #696969;
-        margin-right: 3px; }
-      #superheros .hero-description .hero-link a {
-        color: white;
-        margin-right: 3px; }
-        #superheros .hero-description .hero-link a:last-child {
-          margin-right: 0; }
-=======
       #superheros .hero-description .hero-link {
-        font-size: 12px; }
+        font-size: 11px; }
         #superheros .hero-description .hero-link .fa-book {
           color: #696969;
           margin-right: 3px; }
@@ -38,4 +28,3 @@
           margin-right: 3px; }
           #superheros .hero-description .hero-link a:last-child {
             margin-right: 0; }
->>>>>>> dev:react-ui/src/app/pages/superheros/components/herosblocs/index.css
