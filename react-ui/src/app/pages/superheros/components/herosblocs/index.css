@@ -10,7 +10,7 @@
       height: 200px; }
     #superheros .hero-description {
       position: relative;
-      top: -60px;
+      top: -55px;
       width: 200px;
       background-color: rgba(230, 230, 230, 0.5);
       padding: 10px;
@@ -18,11 +18,13 @@
       #superheros .hero-description .hero-name {
         font-weight: bold;
         font-size: 12px; }
-      #superheros .hero-description .hero-link .fa-book {
-        color: #696969;
-        margin-right: 3px; }
-      #superheros .hero-description .hero-link a {
-        color: white;
-        margin-right: 3px; }
-        #superheros .hero-description .hero-link a:last-child {
-          margin-right: 0; }
+      #superheros .hero-description .hero-link {
+        font-size: 12px; }
+        #superheros .hero-description .hero-link .fa-book {
+          color: #696969;
+          margin-right: 3px; }
+        #superheros .hero-description .hero-link a {
+          color: white;
+          margin-right: 3px; }
+          #superheros .hero-description .hero-link a:last-child {
+            margin-right: 0; }
