@@ -4,13 +4,15 @@ $pink:              #DA0073;
 #header {
     color: $pink;
     text-align: center;
+    margin-top: 30px;
 
     #title {
-        h2 {
-            margin-bottom: 0;
+
+        a {
+            color: $pink;
         }
 
-        h3 {
+        h2, h3 {
             margin-top: 0;
         }
     

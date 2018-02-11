@@ -32,6 +32,9 @@ export default class SuperHeros extends Component {
                 for(let i = 0; i < heros.data.count; i++) {
                     let hero = heros.data.results[i];
                     let hero_picture;
+                    let hero_details;
+                    let hero_wiki;
+                    let hero_comics;
 
                     if(hero.thumbnail.path.includes('image_not_available')) {
                         hero_picture = 'https://storage.googleapis.com/superherosbyventeprivee/justiceleague.png';
@@ -39,10 +42,17 @@ export default class SuperHeros extends Component {
                         hero_picture = hero.thumbnail.path + '.' + hero.thumbnail.extension;
                     }
 
+                    hero.urls[0] ? hero_details = hero.urls[0].url : hero_details = '';
+                    hero.urls[1] ? hero_wiki = hero.urls[1].url : hero_wiki = '';
+                    hero.urls[2] ? hero_comics = hero.urls[2].url : hero_comics = '';
+
                     this.heros.push({
                         id: hero.id,
                         name: hero.name,
                         avatar: hero_picture,
+                        details: hero_details,
+                        wiki: hero_wiki,
+                        comic: hero_comics
                     });
                 }
 

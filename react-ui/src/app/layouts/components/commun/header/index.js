@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import { Icon } from 'react-fa';
+import { Link } from 'react-router-dom';
 import './index.css';
 
 export default class Header extends Component {
@@ -7,8 +7,13 @@ export default class Header extends Component {
         return (
             <div id='header'>
                 <div id='title'>
-                    <h2>Super Heros</h2>
-                    <div id='subheader' ><h3>By</h3> <img alt='vente privee' src='https://storage.googleapis.com/superherosbyventeprivee/venteprivee_logo.png' /></div>
+                    <Link to='/superheros'><h2>Super Heros</h2></Link>
+                    <div id='subheader' >
+                        <h3>By</h3> 
+                        <a href='http://group.vente-privee.com/fr-FR/JobsOffers.aspx'>
+                            <img alt='vente privee' src='https://storage.googleapis.com/superherosbyventeprivee/venteprivee_logo.png' />
+                        </a>
+                    </div>
                 </div>
             </div>
         );
