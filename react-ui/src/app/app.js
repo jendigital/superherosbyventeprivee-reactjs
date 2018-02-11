@@ -11,7 +11,8 @@ class App extends Component {
         return (
             <div id="container">
                 <Route exact path='/' render={() => <SuperHeros store={this.props.store} history={this.props.history} />} />
-                <Route exact path='/superHeroInfo' render={() => <SuperHeroInfo store={this.props.store} history={this.props.history} />} />
+                <Route exact path='/superheros' render={() => <SuperHeros store={this.props.store} history={this.props.history} />} />
+                <Route exact path='/superhero/:heroId' render={() => <SuperHeroInfo store={this.props.store} history={this.props.history} />} />
             </div>
         )
     }

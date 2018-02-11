@@ -1,7 +1,10 @@
 import React from 'react';
-import { Icon } from 'react-fa';
+import { Link } from 'react-router-dom';
 
 import './index.css';
+import Details from '../details';
+import Wiki from '../wiki';
+import ComicLink from '../comics';
 
 export default function HerosBlocs(props) {
     const heros = props.heros;
@@ -29,11 +32,11 @@ export default function HerosBlocs(props) {
                     <img alt={hero.name} src={hero.avatar} />
                 </div>
                 <div className='hero-description'>
-                    <span className='hero-name'>{hero.name}</span>
+                    <Link to={`/SuperHeroInfo/${hero.id}`} ><span className='hero-name'>{hero.name}</span></Link>
                     <div className='hero-link'>
-                        <a><Icon name='book' /> details</a>
-                        <a><Icon name='book' /> wiki</a>
-                        <a><Icon name='book' /> comiclink</a>
+                        <Details link={hero.details} />
+                        <Wiki link={hero.wiki} />
+                        <ComicLink link={hero.comic} />
                     </div>
                 </div>
             </div>
