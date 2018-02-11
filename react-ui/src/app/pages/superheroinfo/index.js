@@ -9,6 +9,8 @@ export default class SuperHeroInfo extends Component {
 
     constructor(props) {
         super(props);
+        let path = props.history.location.pathname.toLowerCase();
+        let id = path.replace('/superhero/', '');
 
         this.state = {
             superHeroInfo: []
@@ -17,12 +19,10 @@ export default class SuperHeroInfo extends Component {
         this.hero = [];
         this.getCharacterInfo = this.getCharacterInfo.bind(this);
 
-        this.getCharacterInfo();
+        this.getCharacterInfo(id);
     }
 
-    getCharacterInfo() {
-        //Test with Agent Brand
-        let id = '1011297';
+    getCharacterInfo(id) {
         let apiUrl = apiUrlSuperHeroInfo(id);
 
         fetchJsonp(apiUrl)

@@ -1,9 +1,10 @@
 #header {
   color: #DA0073;
-  text-align: center; }
-  #header #title h2 {
-    margin-bottom: 0; }
-  #header #title h3 {
+  text-align: center;
+  margin-top: 30px; }
+  #header #title a {
+    color: #DA0073; }
+  #header #title h2, #header #title h3 {
     margin-top: 0; }
   #header #title #subheader {
     display: flex;

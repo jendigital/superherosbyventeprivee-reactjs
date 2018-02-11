@@ -29,10 +29,10 @@ export default function HerosBlocs(props) {
         return (
             <div className='hero' key={hero.name.toString()}>
                 <div className='avatar'>
-                    <img alt={hero.name} src={hero.avatar} />
+                <Link to={`/SuperHero/${hero.id}`} ><img alt={hero.name} src={hero.avatar} /></Link>
                 </div>
                 <div className='hero-description'>
-                    <Link to={`/SuperHeroInfo/${hero.id}`} ><span className='hero-name'>{hero.name}</span></Link>
+                    <Link to={`/SuperHero/${hero.id}`} ><span className='hero-name'>{hero.name}</span></Link>
                     <div className='hero-link'>
                         <Details link={hero.details} />
                         <Wiki link={hero.wiki} />

@@ -15,9 +15,10 @@
       background-color: rgba(230, 230, 230, 0.5);
       padding: 10px;
       color: #3F3F3F; }
-      #superheros .hero-description .hero-name {
+      #superheros .hero-description a .hero-name {
         font-weight: bold;
-        font-size: 12px; }
+        font-size: 12px;
+        color: #3F3F3F; }
       #superheros .hero-description .hero-link {
         font-size: 12px; }
         #superheros .hero-description .hero-link .fa-book {

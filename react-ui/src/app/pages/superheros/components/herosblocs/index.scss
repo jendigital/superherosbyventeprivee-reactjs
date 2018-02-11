@@ -25,9 +25,10 @@ $darkgrey:        #3F3F3F;
             padding: 10px;
             color: $darkgrey;
 
-            .hero-name {
+            a .hero-name {
                 font-weight: bold;
                 font-size: 12px;
+                color: $darkgrey;
             }
 
             .hero-link {
