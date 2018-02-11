@@ -1,0 +1,33 @@
+#superHeroInfo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    #hero {
+        display: flex;
+
+        .identity {
+            .avatar img {
+                width: 300px;
+                height: 300px;
+            }
+
+            .hero-description {
+                position: relative;
+                top: -65px;
+                background-color: rgba(230, 230, 230, 0.5);
+                padding: 10px;
+
+                h4 {
+                    margin-top: 0;
+                }
+            }
+        }
+        .appearin {
+            margin-left: 20px;
+
+            ul {
+                list-style-type: none;
+            }
+        }
+    }
+}

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Route } from 'react-router'
 
 import SuperHeros from './pages/superheros'
+import SuperHeroInfo from './pages/superheroinfo'
 
 import './app.css'
 
@@ -10,6 +11,7 @@ class App extends Component {
         return (
             <div id="container">
                 <Route exact path='/' render={() => <SuperHeros store={this.props.store} history={this.props.history} />} />
+                <Route exact path='/superHeroInfo' render={() => <SuperHeroInfo store={this.props.store} history={this.props.history} />} />
             </div>
         )
     }
