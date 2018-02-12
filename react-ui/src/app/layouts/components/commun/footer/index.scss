@@ -1,6 +1,22 @@
-$dark-gold:         #FFD700;
-$beige:             #f5f5dc;
-$screen-md-min:     992px;
+$darkgrey:        #3F3F3F;
+$pink:            #DA0073;
 
 #footer {
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+
+        li {
+            width: 200px;
+            a {
+                color: $darkgrey;
+                font-weight: bold;
+
+                &#jendigital {
+                    color: $pink;
+                }
+            }
+        }
+    }
 }

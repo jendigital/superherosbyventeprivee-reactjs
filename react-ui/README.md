@@ -31,9 +31,17 @@ https://superherosbyventeprivee.herokuapp.com/
 
 ![alt text](https://storage.googleapis.com/superherosbyventeprivee/superherolisteffect.png)
 
-## List Result
+## Result with fetch
 
-![alt text](https://storage.googleapis.com/superherosbyventeprivee/SuperHerosFetchList.png)
+![alt text](https://storage.googleapis.com/superherosbyventeprivee/superherosfetch.png)
+
+## Super Hero Info Focus
+
+![alt text](https://storage.googleapis.com/superherosbyventeprivee/superheroinfo.png)
+
+## Super Hero Not Found
+
+![alt text](https://storage.googleapis.com/superherosbyventeprivee/superheronotfound.png)
 
 ## Deploy on Heroku from Root (Preproduction plateforme https://superherosbyventeprivee.herokuapp.com)
 
