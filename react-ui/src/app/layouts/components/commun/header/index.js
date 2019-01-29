@@ -7,13 +7,13 @@ export default class Header extends Component {
         return (
             <div id='header'>
                 <div id='title'>
-                    <Link to='/superheros'><h2>Super Heros</h2></Link>
-                    <div id='subheader' >
-                        <h3>By</h3> 
-                        <a href='http://group.vente-privee.com/fr-FR/JobsOffers.aspx'>
+                    <Link to='/superheros'>
+                        <h2>Super Heros</h2>
+                        <div id='subheader' >
+                            <h3>By</h3>
                             <img alt='vente privee' src='https://storage.googleapis.com/superherosbyventeprivee/venteprivee_logo.png' />
-                        </a>
-                    </div>
+                        </div>
+                    </Link>
                 </div>
             </div>
         );
