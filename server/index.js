@@ -6,8 +6,7 @@ const PORT = process.env.PORT || 5000;
 
 const auth = require('http-auth');
 const basic = auth.basic({
-    realm: "Super Heros By Vente Privee Can Be Deploy On Heroku.",
-	  file: __dirname + "/.htpasswd"
+    realm: "Super Heros By Vente Privee Can Be Deploy On Heroku."
 });
 
 // Priority serve any static files.

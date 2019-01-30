@@ -1,11 +1,11 @@
-![alt text](https://storage.googleapis.com/superherosbyventeprivee/venteprivee_logo.png)
+![alt text](https://github.com/jendigital/superherosbyventeprivee-reactjs/blob/master/vente_privee.png)
 
 Super Heros By Vente Privee
 ============================
 
 ## List of super Heros
 
-![alt text](https://storage.googleapis.com/superherosbyventeprivee/superheroslist.png)
+![alt text](https://github.com/jendigital/superherosbyventeprivee-reactjs/blob/master/superheroslist.png)
 
 ## Heroku App, click on the link to see the result on preproduction
 
@@ -25,23 +25,23 @@ https://superherosbyventeprivee.herokuapp.com/
 
 ## Project Purpose
 
-![alt text](https://storage.googleapis.com/superherosbyventeprivee/react_project_instruction.png)
+![alt text](https://github.com/jendigital/superherosbyventeprivee-reactjs/blob/master/react_project_instruction.png)
 
 ## Test with hard written object
 
-![alt text](https://storage.googleapis.com/superherosbyventeprivee/superherolisteffect.png)
+![alt text](https://github.com/jendigital/superherosbyventeprivee-reactjs/blob/master/superhero_test.png)
 
 ## Result with fetch
 
-![alt text](https://storage.googleapis.com/superherosbyventeprivee/superherosfetch.png)
+![alt text](https://github.com/jendigital/superherosbyventeprivee-reactjs/blob/master/superheroslist_fetch.png)
 
 ## Super Hero Info Focus
 
-![alt text](https://storage.googleapis.com/superherosbyventeprivee/superheroinfo.png)
+![alt text](https://github.com/jendigital/superherosbyventeprivee-reactjs/blob/master/superherodetails.png)
 
 ## Super Hero Not Found
 
-![alt text](https://storage.googleapis.com/superherosbyventeprivee/superheronotfound.png)
+![alt text](https://github.com/jendigital/superherosbyventeprivee-reactjs/blob/master/superhero_notfound.png)
 
 ## Deploy on Heroku from Root (Preproduction plateforme https://superherosbyventeprivee.herokuapp.com)
 
